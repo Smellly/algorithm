@@ -52,7 +52,7 @@ def r_rules(input_list,rule_number):
 def dfs_search(input_list,state_array):
     #判定搜索条件
     if input_list[0]==0 and input_list[1]==0 and input_list[2]==0:
-        print "sucess"
+        print("success")
         pprint.pprint(input_list)
         return
     elif input_list in state_array:
